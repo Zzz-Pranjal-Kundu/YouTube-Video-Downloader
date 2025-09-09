@@ -1,0 +1,20 @@
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# PyInstaller files
+build/
+dist/
+*.spec
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Settings file
+settings.json
