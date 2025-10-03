@@ -86,12 +86,19 @@ If you want to distribute a single, standalone executable that others can use wi
 
 2. **Run the following command:**
 
+   ```bash
    pyinstaller --onefile --noconsole --add-data "path\to\your\ffmpeg\bin;ffmpeg\bin" DownloaderFile.py
-
+   ```
 
     Replace `path\to\your\ffmpeg\bin` with the actual path to your FFmpeg bin folder.
 
 3. The executable file will be created in the `dist/` folder.
+
+## NOTE
+In Case the exe file does not work or download, run the following command and then try the above steps once again,
+     ```bash
+     pip install --upgrade yt-dlp
+     ```
 
 ## 📄 License
 
