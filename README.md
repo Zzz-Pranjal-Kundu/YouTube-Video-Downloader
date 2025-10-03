@@ -96,9 +96,10 @@ If you want to distribute a single, standalone executable that others can use wi
 
 ## NOTE
 In Case the exe file does not work or download, run the following command and then try the above steps once again,
-     ```bash
+     
+   ```bash
      pip install --upgrade yt-dlp
-     ```
+   ```
 
 ## 📄 License
 
